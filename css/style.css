@@ -1321,7 +1321,14 @@
 
 /* ----------------- MEDIA ----------------- */
 
-
+@media (min-width: 400px) {
+    .header__nav-mobile-content {
+        justify-content: start;
+    }
+    .header__nav-mobile {
+        height: auto;
+    }
+}
 @media (min-width: 768px) {
     .header__burger,
     .header__burger-toggle,
