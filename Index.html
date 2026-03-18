@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ToyStore - best toys for kids">
+    <meta name="keywords" content="Toys, children">
+    <title>Toy Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <!-- Скрытый чекбокс для управления меню -->
+            <input type="checkbox" id="burger-toggle" class="header__burger-toggle">
+            
+            <!-- Верхняя строка с контактами -->
+            <div class="header__contacts">
+                <div class="header__contact">
+                    <p href="#" class="header__contact-link">Call Us: +1 213 974-5898</p>
+                    <a href="#" class="header__contact-link">Email: toystore@template.com</a>
+                </div>
+                <div class="header__socials">
+                    <a class="header__social-link" href="" aria-label="Twitter">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-twitter"></use>
+                        </svg>                    
+                    </a>
+                    <a class="header__social-link" href="" aria-label="Facebook">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="header__social-link" href="" aria-label="Instagram">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="header__social-link" href="" aria-label="Pinterest">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-pinterest"></use>
+                        </svg>
+                    </a>
+                    <a class="header__social-link" href="" aria-label="Youtube">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-youtube"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Основная строка с лого, бургером и корзиной -->
+            <div class="header__main">             
+                <a class="header__logo" href="#">
+                    ToyStore
+                </a>
+                <label for="burger-toggle" class="header__burger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <!-- Десктопная навигация -->
+                <div class="header__nav-box">
+                    <nav class="header__nav">
+                        <a href="#" class="header__nav-link">Catalog</a>
+                        <a href="#" class="header__nav-link">Delivery</a>
+                        <a href="#" class="header__nav-link">About</a>
+                        <a href="#" class="header__nav-link">Contacts</a>
+                    </nav>
+
+                    <div class="header__cart">
+                        <span class="header__cart-name">Cart</span>
+                        <svg width="24px" height="24px">
+                            <use href="./images/icons.svg#_icon-cart"></use>
+                        </svg> 
+                        <div class="header__cart-count"><span>0</span></div>   
+                    </div>
+                </div>
+            </div>
+
+            <!-- Мобильное меню -->
+            <nav class="header__nav-mobile">
+                <label for="burger-toggle" class="header__nav-close" aria-label="Close menu">
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="header__nav-mobile-content">
+                    <div class="header__mobile-cart">
+                        <a href="#" class="header__mobile-cart-link">
+                            <span class="header__mobile-cart-text">Cart</span>
+                            <svg width="24px" height="24px">
+                                <use href="./images/icons.svg#_icon-cart"></use>
+                            </svg> 
+                            <div class="header__mobile-cart-count"><span>0</span></div>
+                        </a>
+                    </div>
+                    <nav class="header__nav-links">
+                        <a href="#" class="header__nav-link">Catalog</a>
+                        <a href="#" class="header__nav-link">Delivery</a>
+                        <a href="#" class="header__nav-link">About</a>
+                        <a href="#" class="header__nav-link">Contacts</a>
+                    </nav>
+                    
+                    <div class="header__mobile-footer">
+                        <div class="header__mobile-contacts">
+                            <p href="#" class="header__contact-link">Call Us: +1 213 974-5898</p>
+                            <a href="#" class="header__contact-link">Email: toystore@template.com</a>
+                        </div>
+                        
+                        <div class="header__mobile-socials">
+                            <a class="header__social-link" href="" aria-label="Twitter">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#_icon-twitter"></use>
+                                </svg>                    
+                            </a>
+                            <a class="header__social-link" href="" aria-label="Facebook">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#_icon-facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="header__social-link" href="" aria-label="Instagram">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#_icon-instagram"></use>
+                                </svg>
+                            </a>
+                            <a class="header__social-link" href="" aria-label="Pinterest">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#_icon-pinterest"></use>
+                                </svg>
+                            </a>
+                            <a class="header__social-link" href="" aria-label="Youtube">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#_icon-youtube"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Оверлей (затемнение фона) -->
+            <label for="burger-toggle" class="header__overlay"></label>
+        </div>
+    </header>    
+    <!-- <main>
+        <section class="hero">
+            <div class="hero__container">
+                <p class="hero__text">Say Hello to ToyStore!</p>
+                <h1 class="hero__title">Free Ecommerce <br>Template for Webflow</h1>
+                <button class="hero__btn" type="button">Open Catalog</button>
+            </div>
+        </section>
+        <section class="categories">        
+            <div class="categories__container">
+                <div class="categories__title-box">
+                    <div class="categories__title stuffed">
+                            <img class="categories__title-img img-stuffed" src="./images/stuffed.png" width="220px" height="220px" alt="Stuffed Animals">
+                            <h3>Stuffed Animals</h3>
+                            <button>Shop Now</button>
+                    </div>
+                    <div class="categories__title wooden">
+                            <img class="categories__title-img img-wooden" src="./images/wooden.png" width="220px" height="220px" alt="Wooden Toys">
+                            <h3>Wooden Toys</h3>
+                            <button>Shop Now</button>
+                    </div>
+                </div>            
+
+                <div class="categories__stuffed-toys">
+                    <div class="categories__stuffed-toys-title">
+                        <div class="categories__stuffed-toys-title-box">
+                            <h3>Stuffed Animals</h3>                    
+                            <button>See All Toys
+                                <svg width="14px" height="10px">
+                                    <use href="images/icons.svg#icon-arrow-right"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="categories__line-box">
+                            <span class="categories__line-green"></span>
+                            <span class="categories__line"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-container">
+                        <ul class="categories__stuffed-toys-list" id="toys-list-stuffed">
+                            <li class="categories__stuffed-toys-item">
+                                <img src="./images/teddy.png" alt="Teddy">
+                                <p>Teddy Bear</p>
+                                <span>$ 30.00 USD</span>
+                            </li>
+                            <li class="categories__stuffed-toys-item">
+                                <img src="./images/mega_plush.png" alt="Mega plush">
+                                <p>Mega Plush Toy</p>
+                                <span>$ 38.00 USD</span>
+                            </li>
+                            <li class="categories__stuffed-toys-item">
+                                <img src="./images/cute_dog.png" alt="Cute dog">
+                                <p>Cute Dog</p>
+                                <span>$ 24.00 USD</span>
+                            </li>
+                            <li class="categories__stuffed-toys-item">
+                                <img src="./images/little_friend.png" alt="Little friend">
+                                <p>Little Friend</p>
+                                <span>$ 27.00 USD</span>
+                            </li>                          
+                        </ul>
+                    </div>
+                    
+                    <div class="slider-controls">
+                        <button class="slider-btn" id="prev-btn-stuffed" disabled>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M10 13.5L5.5 9L10 4.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="slider-btn" id="next-btn-stuffed">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 13.5L10.5 9L6 4.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>                                     
+                </div>
+            </div>
+            <div class="categories__wooden-toys">
+                <div class="categories__wooden-toys-title">
+                    <div class="categories__wooden-toys-title-box">
+                        <h3>Wooden Toys</h3>                    
+                        <button>See All Toys
+                            <svg width="14px" height="10px">
+                                <use href="images/icons.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="categories__wooden-toys-title-linebox">
+                        <span class="categories__wooden-toys-linegreen" id="progress-line-wooden"></span>
+                        <span class="categories__wooden-toys-line"></span>
+                    </div>
+                </div>
+                <div class="slider-container">
+                    <ul class="categories__wooden-toys-list" id="toys-list-wooden">
+                        <li class="categories__wooden-toys-item">
+                            <img class="categories__wooden-toys-img" src="./images/happy_flower.png" width="182px" height="182px" alt="happy_flower">
+                            <p class="categories__wooden-toys-item-name">Happy Flower</p>
+                            <span class="categories__wooden-toys-price">$ 38.00 USD</span>
+                        </li>
+                        <li class="categories__wooden-toys-item">
+                            <img class="categories__wooden-toys-img" src="./images/lift_machine.png" width="182px" height="182px" alt="lift_machine">
+                            <p class="categories__wooden-toys-item-name">Lift Machine</p>
+                            <span class="categories__wooden-toys-price">$ 24.00 USD</span>
+                        </li>
+                        <li class="categories__wooden-toys-item">
+                            <img class="categories__wooden-toys-img" src="./images/wooden_camera.png" width="182px" height="182px" alt="wooden_camera">
+                            <p class="categories__wooden-toys-item-name">Wooden Camera</p>
+                            <span class="categories__wooden-toys-price">$ 32.00 USD</span>
+                        </li>
+                        <li class="categories__wooden-toys-item">
+                            <img class="categories__wooden-toys-img" src="./images/little_rabbit.png" width="182px" height="182px" alt="little_rabbit">
+                            <p class="categories__wooden-toys-item-name">Little Rabbit</p>
+                            <span class="categories__wooden-toys-price">$ 15.00 USD</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prev-btn-wooden" disabled>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M10 13.5L5.5 9L10 4.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="slider-btn" id="next-btn-wooden">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 13.5L10.5 9L6 4.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>                                     
+            </div>
+            <div class="overlay" id="overlay"></div>
+        </section>
+        <section class="story">
+            <div class="story__container">
+                <p class="story__text">About The Shop</p>
+                <h2 class="story__title">Watch Our Story</h2>
+                <p class="story__description">There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.</p>
+                <button class="story__btn-box" type="button">
+                    <svg class="story__btn-icon" width="24px" height="24px">
+                        <use href="images/icons.svg#icon-play"></use>
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <section class="getit">
+            <div class="getit__container">
+                <div class="getit__title">
+                    <p class="getit__text">Made for Webflow</p>
+                    <h2 class="getit__name">Simple & Colorful Ecommerce <br> Template for Your Business</h2>
+                </div>
+                <div class="getit__content">
+                    <div class="getit__content-info">
+                        <h3 class="getit__content-title">Available for FREE!</h3>
+                        <span class="getit__content-line"></span>
+                        <p class="getit__content-text">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy</p>
+                        <button class="getit__content-btn" href="" type="button">GET IT NOW!</button>
+                    </div>
+                    <div class="getit__content-img-box"></div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe__container">
+                <div class="subscribe__title">
+                    <div class="subscribe__icon-box">
+                        <svg class="subscribe-icon" width="31px" height="31px">
+                            <use href="images/icons.svg#icon-subscribe"></use>
+                        </svg>
+                    </div>
+                    <h3 class="subscribe__title-name">Subscribe to our newsletter <br>& get <span class="subscribe__title-name-green">10% discount!</span></h3>
+                </div>
+                <div class="subscribe__message">
+                    <input class="subscribe__input" type="email" placeholder="Enter your email address">
+                    <button class="subscribe__btn" type="button">Subscribe</button>
+                </div>
+            </div>
+        </section>
+        <section class="instagram">
+            <div class="instagram__container">
+                <div class="instagram__title">
+                    <p class="instagram__title-text">@ElasticThemes</p>
+                    <h2 class="instagram__title-name">We're on Instagram!</h2>
+                </div>
+                <div class="instagram__img-box">
+                    <img class="instagram__img" src="./images/toy1.png" alt="toy1">
+                    <img class="instagram__img" src="./images/toy2.png" alt="toy2">
+                    <img class="instagram__img" src="./images/toy3.png" alt="toy3">
+                    <img class="instagram__img" src="./images/toy4.png" alt="toy4">
+                    <img class="instagram__img" src="./images/toy5.png" alt="toy5">
+                    <img class="instagram__img" src="./images/toy6.png" alt="toy6">
+                </div>
+                <button class="instagram__btn" href="" type="button">See More Photos</button>
+            </div>
+                </section>
+
+    </main> -->
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <a class="footer__logo" href="">ToyStore</a>
+    
+                <nav class="footer__nav">
+                    <a class="footer__nav-link" href="">Home</a>
+                    <a class="footer__nav-link" href="">Catalog</a>
+                    <a class="footer__nav-link" href="">Delivery</a>
+                    <a class="footer__nav-link" href="">About</a>
+                    <a class="footer__nav-link" href="">Contacts</a>
+                </nav>
+    
+                <div class="footer__socials">
+                    <a class="footer__social-link" href="" aria-label="Twitter">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-twitter"></use>
+                        </svg>                    
+                    </a>
+                    <a class="footer__social-link" href="" aria-label="Facebook">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="footer__social-link" href="" aria-label="Instagram">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="footer__social-link" href="" aria-label="Pinterest">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-pinterest"></use>
+                        </svg>
+                    </a>
+                    <a class="footer__social-link" href="" aria-label="Youtube">
+                        <svg width="20px" height="20px">
+                            <use href="./images/icons.svg#_icon-youtube"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__credits">
+                    <p>Created with love by</p>
+                    <a href="">Elastic Themes</a>
+                </div>
+                <div class="footer__info">
+                    <p>Powered by</p>
+                    <a href="">Webflow</a>
+                    <span></span>
+                    <a href="">Style Guide</a>
+                    <span></span>
+                    <a href="">Licensing</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="./js/cart.js"></script>
+    <script src="./js/slider.js"></script> -->
+</body>
+</html>
