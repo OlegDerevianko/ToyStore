@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="header__container">
             <!-- Скрытый чекбокс для управления меню -->
             <input type="checkbox" id="burger-toggle" class="header__burger-toggle">
@@ -65,10 +65,10 @@
                 <!-- Десктопная навигация -->
                 <div class="header__nav-box">
                     <nav class="header__nav">
-                        <a href="#" class="header__nav-link">Catalog</a>
-                        <a href="#" class="header__nav-link">Delivery</a>
-                        <a href="#" class="header__nav-link">About</a>
-                        <a href="#" class="header__nav-link">Contacts</a>
+                        <a href="#catalog" class="header__nav-link">Catalog</a>
+                        <a href="#delivery" class="header__nav-link">Delivery</a>
+                        <a href="#about" class="header__nav-link">About</a>
+                        <a href="#home" class="header__nav-link">Contacts</a>
                     </nav>
 
                     <div class="header__cart">
@@ -101,10 +101,10 @@
                         </a>
                     </div>
                     <nav class="header__nav-links">
-                        <a href="#" class="header__nav-link">Catalog</a>
-                        <a href="#" class="header__nav-link">Delivery</a>
-                        <a href="#" class="header__nav-link">About</a>
-                        <a href="#" class="header__nav-link">Contacts</a>
+                        <a href="#catalog" class="header__nav-link">Catalog</a>
+                        <a href="#delivery" class="header__nav-link">Delivery</a>
+                        <a href="#about" class="header__nav-link">About</a>
+                        <a href="#home" class="header__nav-link">Contacts</a>
                     </nav>
                     
                     <div class="header__mobile-footer">
@@ -156,24 +156,24 @@
                 <button class="hero__button" type="button">Open Catalog</button>
             </div>
         </section>
-        <section class="categories">        
-            <div class="categories__container container">
-                <div class="categories__title-container">
-                    <div class="categories__title stuffed">
+        <section class="catalog" id="catalog">        
+            <div class="catalog__container container">
+                <div class="catalog__title-container">
+                    <div class="catalog__title stuffed">
                             <img class="img-stuffed" src="./images/stuffed.png" alt="Stuffed Animals">
                             <h3>Stuffed Animals</h3>
                             <button>Shop Now</button>
                     </div>
-                    <div class="categories__title wooden">
+                    <div class="catalog__title wooden">
                             <img class="img-wooden" src="./images/wooden.png" alt="Wooden Toys">
                             <h3>Wooden Toys</h3>
                             <button>Shop Now</button>
                     </div>
                 </div>            
 
-                <div class="categories__stuffed-toys">
-                    <div class="categories__toys-head">
-                        <div class="categories__toys-title-container">
+                <div class="catalog__stuffed-toys">
+                    <div class="catalog__toys-head">
+                        <div class="catalog__toys-title-container">
                             <h3>Stuffed Animals</h3>                    
                             <button>See All Toys
                                 <svg width="14px" height="10px">
@@ -181,29 +181,29 @@
                                 </svg>
                             </button>
                         </div>
-                        <div class="categories__lines">
-                            <span class="categories__line-green"></span>
-                            <span class="categories__line"></span>
+                        <div class="catalog__lines">
+                            <span class="catalog__line-green"></span>
+                            <span class="catalog__line"></span>
                         </div>
                     </div>                   
                     
-                    <ul class="categories__toys-list">
-                        <li class="categories__toys-item">
+                    <ul class="catalog__toys-list">
+                        <li class="catalog__toys-item">
                             <img src="./images/teddy.png" alt="Teddy">
                             <p>Teddy Bear</p>
                             <span>$ 30.00 USD</span>
                         </li>
-                        <li class="categories__toys-item">
+                        <li class="catalog__toys-item">
                             <img src="./images/mega_plush.png" alt="Mega plush">
                             <p>Mega Plush Toy</p>
                             <span>$ 38.00 USD</span>
                         </li>
-                        <li class="categories__toys-item">
+                        <li class="catalog__toys-item">
                             <img src="./images/cute_dog.png" alt="Cute dog">
                             <p>Cute Dog</p>
                             <span>$ 24.00 USD</span>
                         </li>
-                        <li class="categories__toys-item">
+                        <li class="catalog__toys-item">
                             <img src="./images/little_friend.png" alt="Little friend">
                             <p>Little Friend</p>
                             <span>$ 27.00 USD</span>
@@ -211,9 +211,9 @@
                     </ul>
                 </div>
 
-                <div class="categories__wooden-toys">
-                    <div class="categories__toys-head">
-                        <div class="categories__toys-title-container">
+                <div class="catalog__wooden-toys">
+                    <div class="catalog__toys-head">
+                        <div class="catalog__toys-title-container">
                             <h3>Wooden Toys</h3>                    
                             <button>See All Toys
                                 <svg width="14px" height="10px">
@@ -221,29 +221,29 @@
                                 </svg>
                             </button>
                         </div>
-                        <div class="categories__lines">
-                            <span class="categories__line-green"></span>
-                            <span class="categories__line"></span>
+                        <div class="catalog__lines">
+                            <span class="catalog__line-green"></span>
+                            <span class="catalog__line"></span>
                         </div>
                     </div>  
 
-                    <ul class="categories__toys-list">
-                        <li class="categories__toys-item">
+                    <ul class="catalog__toys-list">
+                        <li class="catalog__toys-item">
                             <img src="./images/happy_flower.png" width="182px" height="182px" alt="happy_flower">
                             <p>Happy Flower</p>
                             <span>$ 38.00 USD</span>
                         </li>
-                        <li class="categories__toys-item">
+                        <li class="catalog__toys-item">
                             <img src="./images/lift_machine.png" width="182px" height="182px" alt="lift_machine">
                             <p>Lift Machine</p>
                             <span>$ 24.00 USD</span>
                         </li>
-                        <li class="categories__toys-item">
+                        <li class="catalog__toys-item">
                             <img src="./images/wooden_camera.png" width="182px" height="182px" alt="wooden_camera">
                             <p>Wooden Camera</p>
                             <span>$ 32.00 USD</span>
                         </li>
-                        <li class="categories__toys-item">
+                        <li class="catalog__toys-item">
                             <img src="./images/little_rabbit.png" width="182px" height="182px" alt="little_rabbit">
                             <p>Little Rabbit</p>
                             <span>$ 15.00 USD</span>
@@ -252,32 +252,32 @@
                 </div>
             </div>
         </section>
-        <section class="story">
-            <div class="story__container">
-                <p class="story__sub-title">About The Shop</p>
-                <h2 class="story__title">Watch Our Story</h2>
-                <p class="story__description">There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.</p>
-                <button class="story__button" type="button">
+        <section class="about" id="about">
+            <div class="about__container">
+                <p class="about__sub-title">About The Shop</p>
+                <h2 class="about__title">Watch Our Story</h2>
+                <p class="about__description">There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.</p>
+                <button class="about__button" type="button">
                     <svg width="20px" height="20px">
                         <use href="./images/icons.svg#_icon-play"></use>
                     </svg>
                 </button>
             </div>
         </section>
-        <section class="get-it">
-            <div class="get-it__container container">
-                <div class="get-it__title-container">
-                    <p class="get-it__sub-title">Made for Webflow</p>
-                    <h2 class="get-it__title">Simple & Colorful Ecommerce <br> Template for Your Business</h2>
+        <section class="delivery" id="delivery">
+            <div class="delivery__container container">
+                <div class="delivery__title-container">
+                    <p class="delivery__sub-title">Made for Webflow</p>
+                    <h2 class="delivery__title">Simple & Colorful Ecommerce <br> Template for Your Business</h2>
                 </div>
-                <div class="get-it__content">
-                    <div class="get-it__content-info">
-                        <h3 class="get-it__content-title">Available for FREE!</h3>
-                        <span class="get-it__content-line"></span>
-                        <p class="get-it__content-desription">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy</p>
-                        <button class="get-it__content-btn" href="" type="button">GET IT NOW!</button>
+                <div class="delivery__content">
+                    <div class="delivery__content-info">
+                        <h3 class="delivery__content-title">Available for FREE!</h3>
+                        <span class="delivery__content-line"></span>
+                        <p class="delivery__content-desription">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy</p>
+                        <button class="delivery__content-btn" href="" type="button">GET IT NOW!</button>
                     </div>
-                    <div class="get-it__content-image"></div>
+                    <div class="delivery__content-image"></div>
                 </div>
             </div>
         </section>
@@ -327,11 +327,11 @@
                 <a class="footer__logo" href="">ToyStore</a>
     
                 <nav class="footer__nav">
-                    <a class="footer__nav-link" href="">Home</a>
-                    <a class="footer__nav-link" href="">Catalog</a>
-                    <a class="footer__nav-link" href="">Delivery</a>
-                    <a class="footer__nav-link" href="">About</a>
-                    <a class="footer__nav-link" href="">Contacts</a>
+                    <a class="footer__nav-link" href="#home">Home</a>
+                    <a class="footer__nav-link" href="#catalog">Catalog</a>
+                    <a class="footer__nav-link" href="#delivery">Delivery</a>
+                    <a class="footer__nav-link" href="#about">About</a>
+                    <a class="footer__nav-link" href="#home">Contacts</a>
                 </nav>
     
                 <div class="footer__socials">
@@ -377,8 +377,6 @@
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- <script src="./js/cart.js"></script>
-    <script src="./js/slider.js"></script> -->
+    </footer> 
 </body>
 </html>

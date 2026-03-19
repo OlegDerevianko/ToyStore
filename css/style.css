@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -369,26 +371,26 @@ section {
     box-shadow: 0 4px 12px rgba(165, 201, 38, 0.3);
 }
 
-/* ============== Categories Section ============== */
+/* ============== catalog Section ============== */
 
-.categories {
+.catalog {
     padding: 120px 0;
 }
-.categories__container {
+.catalog__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 20px;
     gap: 60px;
 }
-.categories__title-container {
+.catalog__title-container {
     display: flex;
     flex-direction: column;
     gap: 120px;    
     justify-content: center;
     align-items: center;
 }
-.categories__title {
+.catalog__title {
     padding: 30px 20px;
     display: flex;
     flex-direction: column-reverse;
@@ -407,7 +409,7 @@ section {
     border-radius: 16px;
     background-color: rgba(251, 65, 107, 1);
 }
-.categories__title img {
+.catalog__title img {
     width: 160px;
     height: auto;
 }
@@ -423,39 +425,39 @@ section {
     right: 15px;
     bottom: 45%;
 }
-.categories__title h3 {
+.catalog__title h3 {
     margin-top: 16px;
     color: rgba(255, 255, 255, 1);
     font-family: Varela Round;
     font-size: 28px;
 }
-.categories__title button {
+.catalog__title button {
     width: fit-content;
     padding: 8px 24px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 1);
     transition: all 0.3s ease;
 }
-.categories__title button:hover {
+.catalog__title button:hover {
     background-color: rgba(165, 201, 38, 1);
     color: rgba(255, 255, 255, 1);
 }
-.categories__toys-head {
+.catalog__toys-head {
     display: flex;
     flex-direction: column;
     gap: 34px;
     margin-bottom: 40px;
 }
-.categories__toys-title-container {
+.catalog__toys-title-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.categories__toys-title-container h3 {
+.catalog__toys-title-container h3 {
     font-family: 'Varela Round', sans-serif;
     font-size: 24px;
 }
-.categories__toys-title-container button {
+.catalog__toys-title-container button {
     display: flex;
     gap: 4px;
     align-items: center;
@@ -464,7 +466,7 @@ section {
     position: relative;
     transition: all 0.3s ease;
 }
-.categories__toys-title-container button::after {
+.catalog__toys-title-container button::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -474,21 +476,21 @@ section {
     background-color: rgba(165, 201, 38, 1);
     transition: width 0.3s ease;
 }
-.categories__toys-title-container button:hover::after {
+.catalog__toys-title-container button:hover::after {
     width: 100%;
 }
-.categories__lines{
+.catalog__lines{
     flex: 1;
     display: flex;
     align-items: center;
     position: relative;
 }
-.categories__line {
+.catalog__line {
     width: 100%;
     height: 2px;
     background-color: rgba(221, 221, 221, 1);
 }
-.categories__line-green {
+.catalog__line-green {
     height: 2px;
     background-color: rgba(165, 201, 38, 1);
     position: absolute;
@@ -497,13 +499,13 @@ section {
     width: 25%;
     transition: left 0.3s ease;
 }
-.categories__toys-list {
+.catalog__toys-list {
     display: flex;
     gap: 30px;
     justify-content: start;
     overflow: hidden;
 }
-.categories__toys-item {
+.catalog__toys-item {
     max-width: 270px;
     padding: 32px 44px;
     border-radius: 16px;
@@ -516,23 +518,23 @@ section {
     cursor: pointer;
     border: 2px solid transparent;
 }
-.categories__toys-item:hover {
+.catalog__toys-item:hover {
     box-shadow: 0 12px 30px rgba(165, 201, 38, 0.3);
     border-color: rgba(165, 201, 38, 1);
 }
-.categories__toys-item img {
+.catalog__toys-item img {
     width: 182px;
     height: 182px;
     object-fit: contain;
 }
-.categories__toys-item p {
+.catalog__toys-item p {
     margin-top: 25px;
     margin-bottom: 12px;
     font-family: 'Varela Round';
     font-size: 14px;
     line-height: 1.4;
 }
-.categories__toys-item span {
+.catalog__toys-item span {
     border-radius: 16px;
     background-color: rgba(165, 201, 38, 1);
     padding: 2px 12px;
@@ -541,42 +543,42 @@ section {
     line-height: 1.7;
 }
 
-/* ============== Story Section ============== */
+/* ============== about Section ============== */
 
 
-.story {
+.about {
     max-width: 1440px;
     height: 464px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('../images/story-bg.png') no-repeat center / cover;
+    background: url('../images/about-bg.png') no-repeat center / cover;
 }
-.story__container {
+.about__container {
     padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 718px;
 }
-.story__sub-title {
+.about__sub-title {
     color: rgba(255, 255, 255, 1);
     font-size: 13px;
     margin-bottom: 18px;
 }
-.story__title {
+.about__title {
     color: rgba(255, 255, 255, 1);
     font-family: Varela Round;
     font-size: 24px;
     margin-bottom: 18px;
 }
-.story__description {
+.about__description {
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
     margin-bottom: 26px;
     text-align: center;
 }
-.story__button {
+.about__button {
     background-color: rgba(165, 201, 38, 1);
     width: 44px;
     height: 44px;
@@ -585,68 +587,68 @@ section {
     align-items: center;
     transition: all 0.3s ease;
 }
-.story__button:hover {
+.about__button:hover {
     background-color: rgba(143, 179, 32, 1);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(165, 201, 38, 1);
 }
-.story__button svg {
+.about__button svg {
     fill: rgba(255, 255, 255, 1);
 }
 
 
 /* ============== Get It Section ============== */
 
-.get-it {
+.delivery {
     padding: 60px 0;
 }
-.get-it__container {
+.delivery__container {
     padding: 0 20px;
 }
-.get-it__title-container {
+.delivery__title-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.get-it__sub-title {
+.delivery__sub-title {
     color: rgba(165, 201, 38, 1);
     font-size: 13px;
     margin-bottom: 18px;
 }
-.get-it__title {
+.delivery__title {
     font-family: Varela Round;
     font-size: 24px;
     text-align: center;
 }
-.get-it__content {
+.delivery__content {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     gap: 40px;
     margin-top: 40px;
 }
-.get-it__content-info {
+.delivery__content-info {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.get-it__content-title {
+.delivery__content-title {
     font-family: Varela Round;
     font-size: 24px;
     margin-bottom: 24px;
 }
-.get-it__content-line {
+.delivery__content-line {
     display: flex;
     width: 70px;
     height: 2px;
     background-color: rgba(165, 201, 38, 1);
 }
-.get-it__content-desription {
+.delivery__content-desription {
     color: rgba(153, 153, 153, 1);
     margin-top: 24px;
     margin-bottom: 26px;
 }
-.get-it__content-btn {
+.delivery__content-btn {
     border-radius: 24px;
     padding: 12px 28px;
     background-color: rgba(165, 201, 38, 1);
@@ -654,12 +656,12 @@ section {
     width: fit-content;
     transition: all 0.3s ease;
 }
-.get-it__content-btn:hover {
+.delivery__content-btn:hover {
     background: rgba(143, 179, 32, 1);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(165, 201, 38, 0.3);
 }
-.get-it__content-image {
+.delivery__content-image {
     border-radius: 16px;
     background: url('../images/kids.png') no-repeat center / cover;
     width: 100%;
@@ -932,17 +934,17 @@ section {
 /* ----------------- MEDIA ----------------- */
 
 @media (min-width: 500px) { 
-    .categories__title {
+    .catalog__title {
         flex-direction: column;
         padding: 40px 20px;
     }
-    .categories__title img {
+    .catalog__title img {
         width: 190px;
     }
     .img-stuffed, .img-wooden {
         bottom: 15px;
     }
-    .categories__title h3 {
+    .catalog__title h3 {
         margin-top: 0;
         margin-bottom: 16px;
     }
@@ -958,7 +960,7 @@ section {
         font-size: 32px;
     }
 
-    .categories__title img {
+    .catalog__title img {
         width: 220px;
     }    
     
@@ -1055,48 +1057,48 @@ section {
         font-size: 38px;
     }
 
-    .categories__title-container {
+    .catalog__title-container {
         flex-direction: row;
         gap: 40px;
     }
-    .categories__title {
+    .catalog__title {
         flex-direction: column-reverse;
     }
     .img-stuffed, .img-wooden {
         bottom: 45%;
     }
-    .categories__title img {
+    .catalog__title img {
         width: 150px;
     }
-    .categories__title h3 {
+    .catalog__title h3 {
         margin-top: 16px;
         margin-bottom: 0;
     }
-    .categories__toys-title-container h3 {
+    .catalog__toys-title-container h3 {
         font-size: 28px;
     }
 
-    .story__container{
+    .about__container{
         padding: 0;
     }
-    .story__title  {
+    .about__title  {
         font-size: 28px;
     }
-    .story__description {
+    .about__description {
         font-size: 16px;
     }
 
-    .get-it__content {
+    .delivery__content {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .get-it__title {
+    .delivery__title {
         font-size: 28px;
     }
-    .get-it__content-title {
+    .delivery__content-title {
         font-size: 28px;
     }
-    .get-it__content-info {
+    .delivery__content-info {
         align-items: start;
     }
     
@@ -1135,20 +1137,20 @@ section {
     }
 }
 @media (min-width: 992px) {
-    .categories__title-container {
+    .catalog__title-container {
         flex-direction: row;
         gap: 40px;
     }
-    .categories__title {
+    .catalog__title {
         flex-direction: column;
     }
     .img-stuffed, .img-wooden {
         bottom: 15px;
     }
-    .categories__title img {
+    .catalog__title img {
         width: 180px;
     }
-    .categories__title h3 {
+    .catalog__title h3 {
         margin-top: 0;
         margin-bottom: 16px;
     }
@@ -1180,7 +1182,7 @@ section {
         max-width: 100%;
     }
     
-    .get-it__content {
+    .delivery__content {
         gap: 80px;
     }
 
@@ -1219,51 +1221,51 @@ section {
         font-size: 14px;
     }
 
-    .categories__title-container {
+    .catalog__title-container {
         gap: 80px;
     }
-    .categories__title {
+    .catalog__title {
         flex-direction: column;
     }    
-    .categories__title img {
+    .catalog__title img {
         width: 220px;
     }
 
-    .story__sub-title {
+    .about__sub-title {
         font-size: 14px;
     }
-    .story__title  {
+    .about__title  {
         font-size: 32px;
     }
-    .story__description {
+    .about__description {
         font-size: 18px;
     }
-    .story__button {
+    .about__button {
         width: 64px;
         height: 64px;
     }
-    .story__button svg {
+    .about__button svg {
         width: 24px;
         height: 24px;
     }
 
-    .get-it {
+    .delivery {
         padding: 120px 0 60px;
     }  
-    .get-it__sub-title {
+    .delivery__sub-title {
         font-size: 14px;
     }    
-    .get-it__title {
+    .delivery__title {
         font-size: 32px;
     }
-    .get-it__content-title {
+    .delivery__content-title {
         font-size: 32px;
     }
-    .get-it__content {
+    .delivery__content {
         gap: 150px;
         margin-top: 80px;
     }
-    .get-it__content-desription {
+    .delivery__content-desription {
         font-size: 16px;
     }
 
@@ -1315,10 +1317,10 @@ section {
         font-size: 16px;
     }
 
-    .categories__title-container {
+    .catalog__title-container {
         gap: 120px;
     }
-    .categories__toys-list {
+    .catalog__toys-list {
         justify-content: center;
     }
     
