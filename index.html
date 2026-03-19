@@ -157,7 +157,7 @@
             </div>
         </section>
         <section class="categories">        
-            <div class="categories__container">
+            <div class="categories__container container">
                 <div class="categories__title-container">
                     <div class="categories__title stuffed">
                             <img class="img-stuffed" src="./images/stuffed.png" alt="Stuffed Animals">
@@ -171,116 +171,86 @@
                     </div>
                 </div>            
 
-                <!-- <div class="categories__stuffed-toys">
-                    <div class="categories__stuffed-toys-title">
-                        <div class="categories__stuffed-toys-title-box">
+                <div class="categories__stuffed-toys">
+                    <div class="categories__toys-head">
+                        <div class="categories__toys-title-container">
                             <h3>Stuffed Animals</h3>                    
                             <button>See All Toys
                                 <svg width="14px" height="10px">
-                                    <use href="images/icons.svg#icon-arrow-right"></use>
+                                    <use href="images/icons.svg#_icon-arrow"></use>
                                 </svg>
                             </button>
                         </div>
-                        <div class="categories__line-box">
+                        <div class="categories__lines">
                             <span class="categories__line-green"></span>
                             <span class="categories__line"></span>
                         </div>
-                    </div>
+                    </div>                   
                     
-                    <div class="slider-container">
-                        <ul class="categories__stuffed-toys-list" id="toys-list-stuffed">
-                            <li class="categories__stuffed-toys-item">
-                                <img src="./images/teddy.png" alt="Teddy">
-                                <p>Teddy Bear</p>
-                                <span>$ 30.00 USD</span>
-                            </li>
-                            <li class="categories__stuffed-toys-item">
-                                <img src="./images/mega_plush.png" alt="Mega plush">
-                                <p>Mega Plush Toy</p>
-                                <span>$ 38.00 USD</span>
-                            </li>
-                            <li class="categories__stuffed-toys-item">
-                                <img src="./images/cute_dog.png" alt="Cute dog">
-                                <p>Cute Dog</p>
-                                <span>$ 24.00 USD</span>
-                            </li>
-                            <li class="categories__stuffed-toys-item">
-                                <img src="./images/little_friend.png" alt="Little friend">
-                                <p>Little Friend</p>
-                                <span>$ 27.00 USD</span>
-                            </li>                          
-                        </ul>
-                    </div>
-                    
-                    <div class="slider-controls">
-                        <button class="slider-btn" id="prev-btn-stuffed" disabled>
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M10 13.5L5.5 9L10 4.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                        <button class="slider-btn" id="next-btn-stuffed">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M6 13.5L10.5 9L6 4.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                    </div>                                     
-                </div>
-            </div>
-            <div class="categories__wooden-toys">
-                <div class="categories__wooden-toys-title">
-                    <div class="categories__wooden-toys-title-box">
-                        <h3>Wooden Toys</h3>                    
-                        <button>See All Toys
-                            <svg width="14px" height="10px">
-                                <use href="images/icons.svg#icon-arrow-right"></use>
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="categories__wooden-toys-title-linebox">
-                        <span class="categories__wooden-toys-linegreen" id="progress-line-wooden"></span>
-                        <span class="categories__wooden-toys-line"></span>
-                    </div>
-                </div>
-                <div class="slider-container">
-                    <ul class="categories__wooden-toys-list" id="toys-list-wooden">
-                        <li class="categories__wooden-toys-item">
-                            <img class="categories__wooden-toys-img" src="./images/happy_flower.png" width="182px" height="182px" alt="happy_flower">
-                            <p class="categories__wooden-toys-item-name">Happy Flower</p>
-                            <span class="categories__wooden-toys-price">$ 38.00 USD</span>
+                    <ul class="categories__toys-list">
+                        <li class="categories__toys-item">
+                            <img src="./images/teddy.png" alt="Teddy">
+                            <p>Teddy Bear</p>
+                            <span>$ 30.00 USD</span>
                         </li>
-                        <li class="categories__wooden-toys-item">
-                            <img class="categories__wooden-toys-img" src="./images/lift_machine.png" width="182px" height="182px" alt="lift_machine">
-                            <p class="categories__wooden-toys-item-name">Lift Machine</p>
-                            <span class="categories__wooden-toys-price">$ 24.00 USD</span>
+                        <li class="categories__toys-item">
+                            <img src="./images/mega_plush.png" alt="Mega plush">
+                            <p>Mega Plush Toy</p>
+                            <span>$ 38.00 USD</span>
                         </li>
-                        <li class="categories__wooden-toys-item">
-                            <img class="categories__wooden-toys-img" src="./images/wooden_camera.png" width="182px" height="182px" alt="wooden_camera">
-                            <p class="categories__wooden-toys-item-name">Wooden Camera</p>
-                            <span class="categories__wooden-toys-price">$ 32.00 USD</span>
+                        <li class="categories__toys-item">
+                            <img src="./images/cute_dog.png" alt="Cute dog">
+                            <p>Cute Dog</p>
+                            <span>$ 24.00 USD</span>
                         </li>
-                        <li class="categories__wooden-toys-item">
-                            <img class="categories__wooden-toys-img" src="./images/little_rabbit.png" width="182px" height="182px" alt="little_rabbit">
-                            <p class="categories__wooden-toys-item-name">Little Rabbit</p>
-                            <span class="categories__wooden-toys-price">$ 15.00 USD</span>
-                        </li>
-                        
+                        <li class="categories__toys-item">
+                            <img src="./images/little_friend.png" alt="Little friend">
+                            <p>Little Friend</p>
+                            <span>$ 27.00 USD</span>
+                        </li>                          
                     </ul>
                 </div>
-                
-                <div class="slider-controls">
-                    <button class="slider-btn" id="prev-btn-wooden" disabled>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M10 13.5L5.5 9L10 4.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                    <button class="slider-btn" id="next-btn-wooden">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 13.5L10.5 9L6 4.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                </div>                                      -->
+
+                <div class="categories__wooden-toys">
+                    <div class="categories__toys-head">
+                        <div class="categories__toys-title-container">
+                            <h3>Wooden Toys</h3>                    
+                            <button>See All Toys
+                                <svg width="14px" height="10px">
+                                    <use href="images/icons.svg#_icon-arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="categories__lines">
+                            <span class="categories__line-green"></span>
+                            <span class="categories__line"></span>
+                        </div>
+                    </div>  
+
+                    <ul class="categories__toys-list">
+                        <li class="categories__toys-item">
+                            <img src="./images/happy_flower.png" width="182px" height="182px" alt="happy_flower">
+                            <p>Happy Flower</p>
+                            <span>$ 38.00 USD</span>
+                        </li>
+                        <li class="categories__toys-item">
+                            <img src="./images/lift_machine.png" width="182px" height="182px" alt="lift_machine">
+                            <p>Lift Machine</p>
+                            <span>$ 24.00 USD</span>
+                        </li>
+                        <li class="categories__toys-item">
+                            <img src="./images/wooden_camera.png" width="182px" height="182px" alt="wooden_camera">
+                            <p>Wooden Camera</p>
+                            <span>$ 32.00 USD</span>
+                        </li>
+                        <li class="categories__toys-item">
+                            <img src="./images/little_rabbit.png" width="182px" height="182px" alt="little_rabbit">
+                            <p>Little Rabbit</p>
+                            <span>$ 15.00 USD</span>
+                        </li>                    
+                    </ul>
+                </div>
             </div>
-            <div class="overlay" id="overlay"></div>
         </section>
         <section class="story">
             <div class="story__container">
@@ -295,7 +265,7 @@
             </div>
         </section>
         <section class="get-it">
-            <div class="get-it__container">
+            <div class="get-it__container container">
                 <div class="get-it__title-container">
                     <p class="get-it__sub-title">Made for Webflow</p>
                     <h2 class="get-it__title">Simple & Colorful Ecommerce <br> Template for Your Business</h2>
@@ -312,7 +282,7 @@
             </div>
         </section>
         <section class="subscribe">
-            <div class="subscribe__container">
+            <div class="subscribe__container container">
                 <div class="subscribe__content">
                     <div class="subscribe__title">
                         <div class="subscribe__icon-box">
@@ -330,7 +300,7 @@
             </div>
         </section>
         <section class="instagram">
-            <div class="instagram__container">
+            <div class="instagram__container container">
                 <div class="instagram__content">
                     <div class="instagram__title-container">
                         <p class="instagram__sub-title">@ElasticThemes</p>
@@ -352,7 +322,7 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__container">
+        <div class="footer__container container">
             <div class="footer__top">
                 <a class="footer__logo" href="">ToyStore</a>
     

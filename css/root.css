@@ -1,79 +1,16 @@
-body {
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
-    color: rgba(17, 17, 17, 1);
-    background-color: rgba(248, 248, 248, 1);
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;}
-a {
-    text-decoration: none;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-}
-ul, ol {
-    list-style: none;
-}
-button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-}
-section {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.hidden {
-    display: none !important;
-}
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
-}
 :root {
-    /* bg colors   */
-    --primary-bg-color: rgba(248, 248, 248, 1);
-    --secondary-bg-color: rgba(165, 201, 38, 1);
-    --third-bg-color: rgba(255, 255, 255, 1);
-    --forth-bg-color: rgba(255, 193, 44, 1);
-    --fifth-bg-color: rgba(251, 65, 107, 1);
-    --overlay-bg-color: rgba(0, 0, 0, 0.5);
-    /* text colors */
-    --primary-text-color: rgba(17, 17, 17, 1);
-    --secondary-text-color: rgba(255, 255, 255, 1);
-    --third-text-color: rgba(165, 201, 38, 1);
-    --forth-text-color: rgba(153, 153, 153, 1);
-    --fifth-text-color: rgba(255, 82, 82, 1);
-    /* buttons colors */
-    --primary-button-color: rgba(165, 201, 38, 1);
-    --secondary-button-color: rgba(255, 255, 255, 1);
-    --third-button-color: rgba(241, 241, 241, 1);
-    /* box-shadow colors */
-    --shadow-primary: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-    --shadow-secondary: 0 4px 12px rgba(165, 201, 38, 0.3);
-    --shadow-third: 0 5px 15px rgba(0, 0, 0, 0.2);
-    --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.15);
-    /* borders */
-    --border-primary: rgba(221, 221, 221, 1);
-    --border-secondary: rgba(165, 201, 38, 1);
-    --border-third: rgba(241, 241, 241, 1);
-    --border-fourth: rgba(255, 255, 255, 0.5);
-    /* hover effects */
-    --hover-primary: rgba(143, 179, 32, 1);
+color: rgba(165, 201, 38, 1);
+color: rgba(255, 255, 255, 1);
+color: rgba(255, 193, 44, 1);
+color: rgba(251, 65, 107, 1);
+color: rgba(0, 0, 0, 0.5);
+color: rgba(17, 17, 17, 1);
+color: rgba(153, 153, 153, 1);
+color: rgba(255, 82, 82, 1);
+color: rgba(241, 241, 241, 1);
+color: rgba(221, 221, 221, 1);
+color: rgba(255, 255, 255, 0.5);
+color: rgba(143, 179, 32, 1);
+color: rgba(248, 248, 248, 1);
 }
